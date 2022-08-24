@@ -27,7 +27,7 @@ const assertEqual = function(actual, expected) {
 
 
 // without function
-const without = (arr, del) => {
+const without = (arr, del) => arr.filter((element) => !del.includes(element));
 //  const newarr = [];
 //  const finallArr = [];
 //  arr.forEach((element ) => {
@@ -44,9 +44,9 @@ const without = (arr, del) => {
   
 //  }
 //  console.log( finallArr)
-return arr.filter((element) => !del.includes(element));
 
-}
+
+
 // array.prototyper.filter // .includes
 
 console.log(without([1, 2, 3], [1])) // => [2, 3]
