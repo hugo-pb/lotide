@@ -20,3 +20,7 @@ const countLetters = (str) => {
     }
   } return finalObj;
 };
+const result1 = countLetters('hello');
+
+assertEqual(result1.h, 1);
+assertEqual(result1.l, 2);

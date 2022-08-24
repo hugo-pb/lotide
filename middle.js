@@ -27,3 +27,6 @@ const middle = (arr) => {
     return newarr;
   }
 };
+
+let result = middle([1,2,3,4]);
+assertArraysEqual(result, [2,3])
