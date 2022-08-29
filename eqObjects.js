@@ -1,5 +1,5 @@
 const assertEqual = require("./assertEqual");
-
+const eqArrays = require("./eqArrays");
 const eqObjects = (obj1, obj2) => {
   let keys1 = Object.keys(obj1);
   let keys2 = Object.keys(obj2);
