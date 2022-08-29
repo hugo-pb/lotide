@@ -1,5 +1,4 @@
 // FUNCTION IMPLEMENTATION
-const assertEqual = require("./assertEqual");
 const eqArrays = (array1, array2) => {
   // avoid having to loop if the arrays are not the same length
   if (array1.length !== array2.length) return false;
@@ -12,7 +11,5 @@ const eqArrays = (array1, array2) => {
   }
   return true;
 };
-
-assertEqual(eqArrays([1, 2, [3, 4, [5, 6]]], [1, 2, [3, 4, [5, 6]]]), true);
 
 module.exports = eqArrays;
