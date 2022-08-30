@@ -14,7 +14,3 @@ const letterPosition = str => {
 };
 
 module.exports = letterPosition;
-
-// let result = letterPosition('hello');
-// assertArraysEqual(result.h, [0]);
-// assertArraysEqual(result.l, [2, 3])
