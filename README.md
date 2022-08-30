@@ -1,4 +1,4 @@
-# Lotide
+# Lotide 1.0.1
 
 A mini clone of the [Lodash](https://lodash.com) library.
 
